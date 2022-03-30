@@ -1,0 +1,10 @@
+2022-03-30T21:48:27.666Z [storeAPI] error POST  - Unexpected token ' in JSON at position 3
+2022-03-30T21:49:07.047Z [storeAPI] error POST  - loggers.info is not a function
+2022-03-30T21:49:09.077Z [storeAPI] error POST  - loggers.info is not a function
+2022-03-30T21:49:09.668Z [storeAPI] error POST  - loggers.info is not a function
+2022-03-30T21:49:13.568Z [storeAPI] error POST  - Name, cpf, phone, email e address são obrigatórios
+2022-03-30T21:49:59.875Z [storeAPI] error POST  - Name, cpf, phone, email e address são obrigatórios
+2022-03-30T21:50:19.969Z [storeAPI] info POST /client - {"name":"Lucas"}
+2022-03-30T21:51:12.683Z [storeAPI] info POST /client - {"name":"Lucas"}
+2022-03-30T21:51:23.642Z [storeAPI] info POST /client - {}
+2022-03-30T21:52:07.210Z [storeAPI] error POST  - Name, cpf, phone, email e address são obrigatórios
