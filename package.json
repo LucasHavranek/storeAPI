@@ -11,6 +11,8 @@
     "license": "ISC",
     "type": "module",
     "dependencies": {
-        "express": "^4.17.3"
+        "cors": "^2.8.5",
+        "express": "^4.17.3",
+        "winston": "^3.6.0"
     }
 }
