@@ -17,3 +17,5 @@
 2022-03-31T13:16:29.294Z [storeAPI] info GET /client :id
 2022-03-31T13:26:09.778Z [storeAPI] info DELETE /client :id
 2022-03-31T13:26:49.695Z [storeAPI] info GET /client
+2022-03-31T13:27:31.304Z [storeAPI] info DELETE /client :id
+2022-03-31T13:27:34.224Z [storeAPI] info GET /client
