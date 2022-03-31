@@ -12,8 +12,8 @@ async function getClient(id) {
     return await clientRepository.getClient(id)
 }
 
-async function updateClient() {
-
+async function updateClient(client) {
+    return await clientRepository.updateClient(client)
 }
 
 async function deleteClient(id) {

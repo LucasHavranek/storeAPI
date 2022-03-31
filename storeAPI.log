@@ -1,21 +1,20 @@
-
-2022-03-30T23:52:46.446Z [storeAPI] error POST  - Name, cpf, phone, email e address são obrigatórios
-2022-03-30T23:57:12.978Z [storeAPI] error POST  - Name, cpf, phone, email e address são obrigatórios
-2022-03-30T23:57:37.607Z [storeAPI] error POST  - Name, cpf, phone, email e address são obrigatórios
-2022-03-31T00:01:22.619Z [storeAPI] error POST  - Name, cpf, phone, email e address são obrigatórios
-2022-03-31T00:01:43.961Z [storeAPI] error POST  - Name, cpf, phone, email e address são obrigatórios
-2022-03-31T00:08:59.573Z [storeAPI] info POST /client - {"name":"Lucas","cpf":23090998897,"phone":11990987622,"email":"fulano@gmail.com","address":"Rua das amoras, 456 - AP 45"}
-2022-03-31T00:09:13.353Z [storeAPI] info POST /client - {"name":"Lucas","cpf":23090998897,"phone":11990987622,"email":"fulano@gmail.com","address":"Rua das amoras, 456 - AP 45"}
-2022-03-31T00:12:53.456Z [storeAPI] info POST /client - {"name":"Lucas","cpf":23090998897,"phone":11990987622,"email":"fulano@gmail.com","address":"Rua das amoras, 456 - AP 45"}
-2022-03-31T00:27:38.120Z [storeAPI] info POST /client - {"name":"Kaique","cpf":49090998897,"phone":11966987622,"email":"kaique@gmail.com","address":"Rua das figueiras, 456 - AP 45"}
-2022-03-31T00:51:00.018Z [storeAPI] error GET  - clientService.getClients is not a function
-2022-03-31T00:51:24.386Z [storeAPI] info GET /client
-2022-03-31T13:04:20.000Z [storeAPI] info GET /client
-2022-03-31T13:04:26.654Z [storeAPI] info GET /client
-2022-03-31T13:04:46.472Z [storeAPI] info GET /client
-2022-03-31T13:09:23.711Z [storeAPI] info GET /client
-2022-03-31T13:16:29.294Z [storeAPI] info GET /client :id
-2022-03-31T13:26:09.778Z [storeAPI] info DELETE /client :id
-2022-03-31T13:26:49.695Z [storeAPI] info GET /client
-2022-03-31T13:27:31.304Z [storeAPI] info DELETE /client :id
-2022-03-31T13:27:34.224Z [storeAPI] info GET /client
+2022-03-31T22:17:25.595Z [storeAPI] error PUT  - Client_id, name, cpf, phone, email e address são obrigatórios
+2022-03-31T22:17:43.612Z [storeAPI] error PUT  - Client_id, name, cpf, phone, email e address são obrigatórios
+2022-03-31T22:17:59.937Z [storeAPI] error PUT  - Client_id, name, cpf, phone, email e address são obrigatórios
+2022-03-31T22:18:39.599Z [storeAPI] error PUT  - Client_id, name, cpf, phone, email e address são obrigatórios
+2022-03-31T22:20:17.469Z [storeAPI] error PUT  - Client_id, name, cpf, phone, email e address são obrigatórios
+2022-03-31T22:20:34.175Z [storeAPI] error PUT  - Client_id, name, cpf, phone, email e address são obrigatórios
+2022-03-31T22:31:36.280Z [storeAPI] error PUT  - invalid input syntax for integer: "Rua das figueiras, 456 - AP 45"
+2022-03-31T22:32:04.964Z [storeAPI] error PUT  - invalid input syntax for integer: "Rua das figueiras, 456"
+2022-03-31T22:32:09.884Z [storeAPI] error PUT  - invalid input syntax for integer: "Rua das figueiras"
+2022-03-31T22:32:37.904Z [storeAPI] info POST /client - {"name":"Kaique","cpf":49090998897,"phone":11966987622,"email":"kaique@gmail.com","address":"Rua das figueiras, 456 - AP 45"}
+2022-03-31T22:32:48.449Z [storeAPI] info GET /client
+2022-03-31T22:32:57.158Z [storeAPI] info DELETE /client :id
+2022-03-31T22:33:00.373Z [storeAPI] info DELETE /client :id
+2022-03-31T22:33:02.892Z [storeAPI] info DELETE /client :id
+2022-03-31T22:33:05.560Z [storeAPI] info GET /client
+2022-03-31T22:33:19.740Z [storeAPI] info POST /client - {"name":"Teste","cpf":49090998897,"phone":11966987622,"email":"teste@gmail.com","address":"Rua das figueiras, 456 - AP 45"}
+2022-03-31T22:33:24.295Z [storeAPI] info GET /client
+2022-03-31T22:33:32.382Z [storeAPI] error PUT  - invalid input syntax for integer: "Rua das figueiras"
+2022-03-31T22:42:29.364Z [storeAPI] info PUT /client - undefined
+2022-03-31T22:43:10.566Z [storeAPI] error PUT  - invalid input syntax for integer: "Rua das amoras, 67"
