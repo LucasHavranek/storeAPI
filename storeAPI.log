@@ -29,3 +29,10 @@
 2022-04-01T17:55:13.537Z [storeAPI] info POST /product - {"name":"iPhone 12","description":"Celular iPhone 12 128GB","value":4500,"stock":5,"supplier_id":2}
 2022-04-01T17:56:26.370Z [storeAPI] info PUT /product - {"product_id":6,"supplier_id":2,"name":"iPhone 13","description":"Celular iPhone 13 128GB","value":"6900","stock":5}
 2022-04-01T17:56:35.463Z [storeAPI] info GET /product
+2022-04-01T18:24:25.949Z [storeAPI] info GET /client
+2022-04-01T18:24:29.801Z [storeAPI] info GET /product
+2022-04-01T18:25:12.092Z [storeAPI] info POST /sale - {"value":3500,"date":"01/04/2022","client_id":8,"product_id":5}
+2022-04-01T18:26:39.801Z [storeAPI] info PUT /sale - {"sale_id":1,"client_id":8,"product_id":5,"value":"3900","date":"2022-01-04T03:00:00.000Z"}
+2022-04-01T18:26:48.299Z [storeAPI] info GET /sale
+2022-04-01T18:34:22.775Z [storeAPI] error POST  - O product_id informado não existe
+2022-04-01T18:34:31.634Z [storeAPI] error POST  - O client_id informado não existe
