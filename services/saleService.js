@@ -40,7 +40,16 @@ async function updateSale(sale) {
 }
 
 async function deleteSale(id) {
-    return await saleRepository.deleteSale(id)
+    const sale = await saleRepository.getSale(id)
+    if(sale){
+        const product = await productRepository.getProduct(sale.product_id)
+        await saleRepository.deleteSale(id)
+        product.stock++
+        await productRepository.updateProduct(product)
+    } else {
+        throw new Error("O id da venda informado não existe")
+    }
+    
 }
 
 export default {
