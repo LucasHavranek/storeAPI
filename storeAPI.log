@@ -36,3 +36,31 @@
 2022-04-01T18:26:48.299Z [storeAPI] info GET /sale
 2022-04-01T18:34:22.775Z [storeAPI] error POST  - O product_id informado não existe
 2022-04-01T18:34:31.634Z [storeAPI] error POST  - O client_id informado não existe
+2022-04-01T20:11:09.973Z [storeAPI] info GET /sale
+2022-04-01T20:11:14.926Z [storeAPI] info GET /sale
+2022-04-01T20:11:19.965Z [storeAPI] info GET /product
+2022-04-01T20:12:15.123Z [storeAPI] error POST  - O produto informado não possui estoque
+2022-04-01T20:13:03.838Z [storeAPI] info GET /product
+2022-04-01T20:13:31.146Z [storeAPI] error POST  - O produto informado não possui estoque
+2022-04-01T20:14:53.161Z [storeAPI] error POST  - O produto informado não possui estoque
+2022-04-01T20:17:55.313Z [storeAPI] error POST  - O produto informado não possui estoque
+2022-04-01T20:17:56.274Z [storeAPI] error POST  - O produto informado não possui estoque
+2022-04-01T20:17:56.870Z [storeAPI] error POST  - O produto informado não possui estoque
+2022-04-01T20:30:30.780Z [storeAPI] error POST  - O produto informado não possui estoque
+2022-04-01T20:30:31.785Z [storeAPI] error POST  - O produto informado não possui estoque
+2022-04-01T20:35:51.767Z [storeAPI] error POST  - O produto informado não possui estoque
+2022-04-01T20:36:20.526Z [storeAPI] info POST /product - {"name":"iPhone 11","description":"Celular iPhone 11 128GB","value":3500,"stock":10,"supplier_id":2}
+2022-04-01T20:37:01.305Z [storeAPI] info GET /product
+2022-04-01T20:37:36.058Z [storeAPI] info GET /client
+2022-04-01T20:37:37.501Z [storeAPI] info GET /client
+2022-04-01T20:37:49.595Z [storeAPI] info GET /product
+2022-04-01T20:38:15.227Z [storeAPI] error POST  - O produto informado não possui estoque
+2022-04-01T20:39:36.518Z [storeAPI] info POST /client - {"name":"Eletrosvaldo","cpf":4768789000199,"phone":11966987622,"email":"eletrosvaldo@gmail.com","address":"Rua das macieiras, 456 - AP 45"}
+2022-04-01T20:39:43.279Z [storeAPI] info GET /product
+2022-04-01T20:40:02.627Z [storeAPI] info GET /client
+2022-04-01T20:40:17.530Z [storeAPI] info GET /product
+2022-04-01T20:40:20.987Z [storeAPI] error POST  - O produto informado não possui estoque
+2022-04-01T20:40:49.193Z [storeAPI] error POST  - O produto informado não possui estoque
+2022-04-01T20:46:57.508Z [storeAPI] error POST  - O produto informado não possui estoque
+2022-04-01T20:50:07.515Z [storeAPI] error POST  - O produto informado não possui estoque
+2022-04-01T20:53:27.294Z [storeAPI] info POST /sale - {"value":3500,"date":"01/04/2022","client_id":10,"product_id":7}
