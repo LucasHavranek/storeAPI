@@ -1,3 +1,17 @@
 2022-03-31T22:59:33.171Z [storeAPI] info POST /client - {"name":"Jabiraca eletrônicos","cpf":4768789000199,"phone":11966987622,"email":"jabiraca@gmail.com","address":"Rua das jabuticabeiras, 456 - AP 45"}
 2022-03-31T23:00:09.054Z [storeAPI] info GET /client
 2022-03-31T23:00:16.918Z [storeAPI] info DELETE /client :id
+2022-04-01T00:20:56.176Z [storeAPI] error POST  - Name, cnpj, phone, email e address são obrigatórios
+2022-04-01T00:22:37.047Z [storeAPI] info POST /supplier - {"name":"Jabiraca eletrônicos","cnpj":4768789000199,"phone":11966987622,"email":"jabiraca@gmail.com","address":"Rua das jabuticabeiras, 456 - AP 45"}
+2022-04-01T00:23:15.063Z [storeAPI] info GET /supplier
+2022-04-01T00:23:18.027Z [storeAPI] info GET /supplier :id
+2022-04-01T00:23:25.375Z [storeAPI] info DELETE /supplier :id
+2022-04-01T00:23:28.114Z [storeAPI] info GET /supplier :id
+2022-04-01T00:23:30.679Z [storeAPI] info POST /supplier - {"name":"Jabiraca eletrônicos","cnpj":4768789000199,"phone":11966987622,"email":"jabiraca@gmail.com","address":"Rua das jabuticabeiras, 456 - AP 45"}
+2022-04-01T00:23:32.445Z [storeAPI] info GET /supplier :id
+2022-04-01T00:23:38.058Z [storeAPI] info GET /supplier :id
+2022-04-01T00:23:43.408Z [storeAPI] info GET /supplier
+2022-04-01T00:24:51.972Z [storeAPI] error PUT  - Supplier_id, name, cnpj, phone, email e address são obrigatórios
+2022-04-01T00:24:58.661Z [storeAPI] error PUT  - Supplier_id, name, cnpj, phone, email e address são obrigatórios
+2022-04-01T00:25:25.866Z [storeAPI] info PUT /supplier - {"supplier_id":2,"name":"Jabiraca.com","cnpj":"6309683000133","phone":"11966987622","email":"kaique@gmail.com","address":"Rua das amoras, 67"}
+2022-04-01T00:25:29.585Z [storeAPI] info GET /supplier
