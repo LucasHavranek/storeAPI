@@ -1,7 +1,11 @@
 import productRepository from '../repositories/productRepository.js'
+import supplierRepository from '../repositories/supplierRepository.js'
 
 async function createProduct(product) {
-    return await productRepository.insertProduct(product)
+    if (await supplierRepository.getSupplier(product.supplier_id)) {
+        return await productRepository.insertProduct(product)
+    }
+    throw new Error("O supplier_id informado não existe")
 }
 
 async function getProducts() {
@@ -13,7 +17,10 @@ async function getProduct(id) {
 }
 
 async function updateProduct(product) {
-    return await productRepository.updateProduct(product)
+    if (await supplierRepository.getSupplier(product.supplier_id)) {
+        return await productRepository.updateProduct(product)
+    }
+    throw new Error("O supplier_id informado não existe")
 }
 
 async function deleteProduct(id) {
