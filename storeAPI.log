@@ -24,3 +24,8 @@
 2022-04-01T00:50:44.088Z [storeAPI] info GET /product
 2022-04-01T00:50:46.988Z [storeAPI] error POST  - insert or update on table "products" violates foreign key constraint "fk_suppliers"
 2022-04-01T00:50:53.145Z [storeAPI] info POST /product - {"name":"iPhone 13","description":"Celular iPhone 13 128GB","value":6500,"stock":5,"supplier_id":2}
+2022-04-01T17:53:53.772Z [storeAPI] info GET /product
+2022-04-01T17:54:21.763Z [storeAPI] error PUT  - Product_id, name, description, value, stock e supplier_id são obrigatórios
+2022-04-01T17:55:13.537Z [storeAPI] info POST /product - {"name":"iPhone 12","description":"Celular iPhone 12 128GB","value":4500,"stock":5,"supplier_id":2}
+2022-04-01T17:56:26.370Z [storeAPI] info PUT /product - {"product_id":6,"supplier_id":2,"name":"iPhone 13","description":"Celular iPhone 13 128GB","value":"6900","stock":5}
+2022-04-01T17:56:35.463Z [storeAPI] info GET /product
