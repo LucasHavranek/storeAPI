@@ -15,3 +15,12 @@
 2022-04-01T00:24:58.661Z [storeAPI] error PUT  - Supplier_id, name, cnpj, phone, email e address são obrigatórios
 2022-04-01T00:25:25.866Z [storeAPI] info PUT /supplier - {"supplier_id":2,"name":"Jabiraca.com","cnpj":"6309683000133","phone":"11966987622","email":"kaique@gmail.com","address":"Rua das amoras, 67"}
 2022-04-01T00:25:29.585Z [storeAPI] info GET /supplier
+2022-04-01T00:46:12.267Z [storeAPI] info GET /supplier
+2022-04-01T00:46:18.232Z [storeAPI] error POST  - insert or update on table "products" violates foreign key constraint "fk_suppliers"
+2022-04-01T00:46:22.082Z [storeAPI] info POST /product - {"name":"iPhone 13","description":"Celular iPhone 13 128GB","value":6500,"stock":5,"supplier_id":2}
+2022-04-01T00:49:15.430Z [storeAPI] error POST  - insert or update on table "products" violates foreign key constraint "fk_suppliers"
+2022-04-01T00:50:34.800Z [storeAPI] info GET /product
+2022-04-01T00:50:40.860Z [storeAPI] info DELETE /product :id
+2022-04-01T00:50:44.088Z [storeAPI] info GET /product
+2022-04-01T00:50:46.988Z [storeAPI] error POST  - insert or update on table "products" violates foreign key constraint "fk_suppliers"
+2022-04-01T00:50:53.145Z [storeAPI] info POST /product - {"name":"iPhone 13","description":"Celular iPhone 13 128GB","value":6500,"stock":5,"supplier_id":2}
