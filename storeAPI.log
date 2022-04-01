@@ -1,0 +1,3 @@
+2022-03-31T22:59:33.171Z [storeAPI] info POST /client - {"name":"Jabiraca eletrônicos","cpf":4768789000199,"phone":11966987622,"email":"jabiraca@gmail.com","address":"Rua das jabuticabeiras, 456 - AP 45"}
+2022-03-31T23:00:09.054Z [storeAPI] info GET /client
+2022-03-31T23:00:16.918Z [storeAPI] info DELETE /client :id
