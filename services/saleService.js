@@ -13,7 +13,7 @@ async function createSale(sale) {
     if (product.stock > 0) {
         sale = await saleRepository.insertSale(sale)
         product.stock--
-        await productRepository.updateProduct(product)
+            await productRepository.updateProduct(product)
         return sale
     } else {
         throw new Error('O produto informado não possui estoque')
@@ -21,8 +21,12 @@ async function createSale(sale) {
 }
 
 
-async function getSales() {
-    return await saleRepository.getSales()
+async function getSales(productId) {
+    if (productId) {
+        return await saleRepository.getSalesByProductId(productId)
+    } else {
+        return await saleRepository.getSales()
+    }
 }
 
 async function getSale(id) {
@@ -41,15 +45,15 @@ async function updateSale(sale) {
 
 async function deleteSale(id) {
     const sale = await saleRepository.getSale(id)
-    if(sale){
+    if (sale) {
         const product = await productRepository.getProduct(sale.product_id)
         await saleRepository.deleteSale(id)
         product.stock++
-        await productRepository.updateProduct(product)
+            await productRepository.updateProduct(product)
     } else {
         throw new Error("O id da venda informado não existe")
     }
-    
+
 }
 
 export default {
