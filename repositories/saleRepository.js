@@ -54,7 +54,7 @@ async function getSale(id) {
 async function updateSale(sale) {
     const conn = await connect()
     try {
-        const sql = 'UPDATE sales SET value = $1, date = $2, client_id = $3 WHERE sale_id = $5 RETURNING *'
+        const sql = 'UPDATE sales SET value = $1, date = $2, client_id = $3 WHERE sale_id = $4 RETURNING *'
         const values = [sale.value, sale.date, sale.client_id, sale.sale_id]
         const res = await conn.query(sql, values)
         return res.rows[0]
