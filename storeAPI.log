@@ -20,3 +20,9 @@
 2022-04-07T02:35:34.106Z [storeAPI] error PUT  - Client_id, name, cpf, phone, email e address são obrigatórios
 2022-04-07T02:36:18.415Z [storeAPI] info PUT /client - {"clientId":8,"name":"Januário 3","cpf":"49090998897","phone":"11966987622","email":"kaique@gmail.com","address":"Rua das amoras, 67"}
 2022-04-07T02:36:21.625Z [storeAPI] info GET /client
+2022-04-07T02:36:32.196Z [storeAPI] error DELETE  - update or delete on table "clients" violates foreign key constraint "fk_clients" on table "sales"
+2022-04-07T02:39:53.921Z [storeAPI] info DELETE /client :id
+2022-04-07T02:39:59.935Z [storeAPI] info GET /client
+2022-04-07T02:40:08.181Z [storeAPI] error DELETE  - update or delete on table "clients" violates foreign key constraint "fk_clients" on table "sales"
+2022-04-07T02:40:12.271Z [storeAPI] info GET /client
+2022-04-07T02:40:19.640Z [storeAPI] error GET  - connect is not defined
