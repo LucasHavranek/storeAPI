@@ -26,3 +26,9 @@
 2022-04-07T02:40:08.181Z [storeAPI] error DELETE  - update or delete on table "clients" violates foreign key constraint "fk_clients" on table "sales"
 2022-04-07T02:40:12.271Z [storeAPI] info GET /client
 2022-04-07T02:40:19.640Z [storeAPI] error GET  - connect is not defined
+2022-04-07T19:55:49.145Z [storeAPI] info GET /supplier
+2022-04-07T19:56:43.818Z [storeAPI] error DELETE  - update or delete on table "suppliers" violates foreign key constraint "fk_suppliers" on table "products"
+2022-04-07T19:58:50.025Z [storeAPI] info GET /product
+2022-04-07T19:58:59.267Z [storeAPI] info GET /product :id
+2022-04-07T19:59:03.577Z [storeAPI] info DELETE /product :id
+2022-04-07T19:59:06.781Z [storeAPI] info GET /product

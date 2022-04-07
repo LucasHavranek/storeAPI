@@ -34,7 +34,7 @@ async function getProduct(req, res, next) {
 async function updateProduct(req, res, next) {
     try {
         let product = req.body
-        if (!product.product_id || !product.name || !product.description || !product.value || !product.stock || !product.supplier_id) {
+        if (!product.productId || !product.name || !product.description || !product.value || !product.stock || !product.supplierId) {
             throw new Error('Product_id, name, description, value, stock e supplier_id são obrigatórios')
         }
         product = await productService.updateProduct(product)

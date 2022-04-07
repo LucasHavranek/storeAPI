@@ -27,6 +27,6 @@ const Product = database.define('products', {
     },
 }, { underscored: true })
 
-product.belongsTo(supplier, { foreignKey: 'supplierId' })
+Product.belongsTo(supplier, { foreignKey: 'supplierId' })
 
 export default Product
