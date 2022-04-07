@@ -26,7 +26,7 @@ async function updateProduct(product) {
 
 async function deleteProduct(id) {
     const sales = await saleRepository.getSalesByProductId(id)
-    if (sales) {
+    if (sales.length > 0) {
         throw new Error('Não é possível excluir o produto pois possui vendas.')
     } else {
         await productRepository.deleteProduct(id)

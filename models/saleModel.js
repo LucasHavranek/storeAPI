@@ -20,7 +20,7 @@ const Sale = database.define('sales', {
     },
 }, { underscored: true })
 
-sale.belongsTo(client, { foreignKey: 'clientId' })
-sale.belongsTo(product, { foreignKey: 'productId' })
+Sale.belongsTo(client, { foreignKey: 'clientId' })
+Sale.belongsTo(product, { foreignKey: 'productId' })
 
 export default Sale
