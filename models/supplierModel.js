@@ -1,7 +1,7 @@
 import sequelize from 'sequelize';
 import database from "../repositories/database.js";
 
-const supplier = database.define('suppliers', {
+const Supplier = database.define('suppliers', {
     supplierId: {
         type: sequelize.INTEGER,
         autoIncrement: true,
@@ -28,6 +28,6 @@ const supplier = database.define('suppliers', {
         type: sequelize.STRING,
         allowNull: false,
     },
-}, { undescored: true })
+}, { underscored: true })
 
-export default supplier
+export default Supplier

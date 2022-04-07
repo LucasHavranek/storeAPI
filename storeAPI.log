@@ -1,2 +1,22 @@
 2022-04-02T14:42:31.056Z [storeAPI] info GET /sale
 2022-04-02T14:42:55.107Z [storeAPI] info GET /sale
+2022-04-07T02:18:29.835Z [storeAPI] error GET  - password authentication failed for user "nzluumpk"
+2022-04-07T02:22:20.441Z [storeAPI] error GET  - column "clientId" does not exist
+2022-04-07T02:26:28.160Z [storeAPI] error GET  - column "clientId" does not exist
+2022-04-07T02:26:29.103Z [storeAPI] error GET  - column "clientId" does not exist
+2022-04-07T02:26:29.703Z [storeAPI] error GET  - column "clientId" does not exist
+2022-04-07T02:26:29.929Z [storeAPI] error GET  - column "clientId" does not exist
+2022-04-07T02:26:30.119Z [storeAPI] error GET  - column "clientId" does not exist
+2022-04-07T02:26:30.342Z [storeAPI] error GET  - column "clientId" does not exist
+2022-04-07T02:27:34.817Z [storeAPI] info GET /client
+2022-04-07T02:29:40.405Z [storeAPI] info GET /client
+2022-04-07T02:29:47.730Z [storeAPI] error GET  - column "clientId" does not exist
+2022-04-07T02:30:35.217Z [storeAPI] error GET  - column "clientId" does not exist
+2022-04-07T02:30:55.331Z [storeAPI] info GET /client
+2022-04-07T02:31:51.133Z [storeAPI] info GET /client :id
+2022-04-07T02:32:04.237Z [storeAPI] info POST /client - {"name":"Eletrosvaldo 2","cpf":4768789000199,"phone":11966987622,"email":"eletrosvaldo@gmail.com","address":"Rua das macieiras, 456 - AP 45"}
+2022-04-07T02:32:07.623Z [storeAPI] info GET /client
+2022-04-07T02:32:19.146Z [storeAPI] error PUT  - WHERE parameter "client_id" has invalid "undefined" value
+2022-04-07T02:35:34.106Z [storeAPI] error PUT  - Client_id, name, cpf, phone, email e address são obrigatórios
+2022-04-07T02:36:18.415Z [storeAPI] info PUT /client - {"clientId":8,"name":"Januário 3","cpf":"49090998897","phone":"11966987622","email":"kaique@gmail.com","address":"Rua das amoras, 67"}
+2022-04-07T02:36:21.625Z [storeAPI] info GET /client

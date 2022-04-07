@@ -1,7 +1,6 @@
 import sequelize from 'sequelize'
-
-const sequelize = new sequelize(
-    "postgres://nzluumpk:adOTVg857x5UJ9H_U3Kdizt-rfPZy4wp@tuffi.db.elephantsql.com/nzluumpk", {
+const sequelizeConnection = new sequelize(
+    "postgres://nzluumpk:oePqx9Si9RKyPQGt0D2a9ZOUuceEA0yX@tuffi.db.elephantsql.com/nzluumpk", {
         dialect: 'postgress',
         define: {
             timestamps: false
@@ -10,4 +9,4 @@ const sequelize = new sequelize(
 )
 
 
-export default sequelize
+export default sequelizeConnection

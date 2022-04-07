@@ -1,5 +1,3 @@
-import { connect } from './database.js'
-
 async function insertSupplier(supplier) {
     const conn = await connect()
     try {

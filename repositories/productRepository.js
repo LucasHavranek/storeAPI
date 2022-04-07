@@ -1,5 +1,3 @@
-import { connect } from './database.js'
-
 async function insertProduct(product) {
     const conn = await connect()
     try {
